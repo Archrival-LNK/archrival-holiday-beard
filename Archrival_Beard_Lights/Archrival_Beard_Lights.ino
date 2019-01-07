@@ -1,8 +1,8 @@
 // Analog Pins
-//int redLED = 0;
-//int greenLED = 1;
-int redLED = 5;
-int greenLED = 3;
+int redLED = 0;
+int greenLED = 1;
+//int redLED = 5;
+//int greenLED = 3;
 
 // LED Values
 int maxBrightness = 150;
@@ -26,7 +26,7 @@ bool isGreenDone = false;
 bool isRedDone = false;
 
 void setup() {
-  Serial.begin(9600);
+//  Serial.begin(9600);
   
   pinMode(redLED, OUTPUT);
   pinMode(greenLED, OUTPUT);
